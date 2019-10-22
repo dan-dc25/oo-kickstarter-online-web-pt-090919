@@ -10,6 +10,7 @@ end
 
 def add_backer(backer)
   @backers << backer
+  @backers << self
 end
 
 end
